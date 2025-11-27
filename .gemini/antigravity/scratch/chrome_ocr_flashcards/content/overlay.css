@@ -1,0 +1,18 @@
+#ocr-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 999999;
+  cursor: crosshair;
+}
+
+#ocr-selection-box {
+  position: fixed;
+  border: 2px dashed #fff;
+  background: rgba(255, 255, 255, 0.2);
+  display: none;
+  pointer-events: none;
+}

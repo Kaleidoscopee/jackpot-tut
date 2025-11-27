@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>OCR Flashcards</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: sans-serif;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    .card-list {
+      margin-top: 10px;
+      border-top: 1px solid #ccc;
+      padding-top: 10px;
+    }
+
+    .card {
+      border: 1px solid #eee;
+      padding: 5px;
+      margin-bottom: 5px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>OCR Flashcards</h3>
+  <button id="capture-btn">Capture Selection</button>
+
+  <div id="flashcards-container" class="card-list">
+    <!-- Cards will appear here -->
+  </div>
+
+  <script src="../lib/supabase.js"></script>
+  <script src="popup.js"></script>
+</body>
+
+</html>

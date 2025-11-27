@@ -1,0 +1,32 @@
+# Windows system files
+AppData/
+Application Data/
+Cookies/
+Documents/My Music/
+Documents/My Pictures/
+Documents/My Videos/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+
+# Application data
+.affinity/
+.android/
+.conda/
+.cursor/
+.gemini/
+
+# Temporary files
+*.tmp
+*.temp
+Cache/
+Cache_Data/
+
+# OS files
+.DS_Store
+Thumbs.db
